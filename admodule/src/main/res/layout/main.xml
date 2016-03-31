@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    
+    
+    <Button 
+        android:id="@+id/query_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="查询金币" />
+    
+    
+    <Button 
+        android:id="@+id/add_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="增加100金币" />
+    
+    
+      
+    <Button 
+        android:id="@+id/minus_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="减去100金币" />
+    
+        
+      
+    <Button 
+        android:id="@+id/show_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="显示积分墙" />
+    
+    <Button 
+        android:id="@+id/fb_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="显示推荐墙" />
+      
+    
+     <TextView
+        android:id="@+id/version"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+    
+
+</LinearLayout>

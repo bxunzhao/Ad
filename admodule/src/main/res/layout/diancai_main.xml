@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+   <Button 
+        android:id="@+id/withScore_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="免费获取奖励" />
+        
+    
+    <Button 
+        android:id="@+id/query_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="查询虚拟货币总额" />
+    
+    
+    <Button 
+        android:id="@+id/add_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="增加100虚拟货币" />
+    
+    
+      
+    <Button
+        android:id="@+id/reduce_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="扣除100虚拟货币" />
+    
+ 
+    
+    <Button 
+        android:id="@+id/withoutScore_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="精品应用推荐" />
+      
+    
+     <TextView
+        android:id="@+id/version"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+    
+
+</LinearLayout>
