@@ -6,6 +6,8 @@ import com.bb.dd.BeiduoPlatform;
 import com.dc.wall.DianCai;
 import com.zy.phone.SDKInit;
 
+import cn.waps.AppConnect;
+
 
 /**
  * Created by Administrator on 2016/3/28.
@@ -20,15 +22,18 @@ public class Ad {
         com.ncc.sdk.offerwall.NccOfferWallAPI.init(activity);
 
 
-         String AdpCode = "e9ff112bc855bf4c";
+        String AdpCode = "e9ff112bc855bf4c";
         //private String AdpCode = "4e368780d0c76f31";
         // 用户ID，用于记录开发者应用的唯一用户标识,没有为空
-         String Other = "";
+        String Other = "";
         com.zy.phone.SDKInit.initAd(activity, AdpCode, "");
 
         com.dc.wall.DianCai.initApp(activity, "168", "666666888888");
 
         com.bb.dd.BeiduoPlatform.setAppId(activity, "10003", "");
         com.bb.dd.BeiduoPlatform.setUserId("6666");
+
+        // 初始化统计器，并通过代码设置APP_ID, APP_PID
+        cn.waps.AppConnect.getInstance("09f277ca386ee99cb4c910e09f562112", "waps", activity);
     }
 }

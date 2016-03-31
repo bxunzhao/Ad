@@ -24,6 +24,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <activity android:name=".AdMainActivity" />
+
 
         <!--baidu-->
         <!-- 此处为测试ID，请您从百度移动联盟网站获取自己的APPSID，替换此处 -->

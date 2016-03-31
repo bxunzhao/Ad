@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/baidu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@null"
+            android:text="百度积分墙"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/youmi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@null"
+            android:text="有米积分墙"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/miidi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@null"
+            android:text="米迪积分墙"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/adcocoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@null"
+            android:text="仪表盘积分墙"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/chinazmod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@null"
+            android:text="中亿传媒积分墙"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/diancai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@null"
+            android:text="点财积分墙"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/beiduo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@null"
+            android:text="贝多积分墙"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/waps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@null"
+            android:text="万普积分墙"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
